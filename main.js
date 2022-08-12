@@ -7,12 +7,12 @@ var resultArray = [];
 for (let i = 0; i < input.length; i++) {
   const letter = input[i];
 
-  if (input[i] === 'e') {
-    resultArray.push(input[i]);
+  if (letter === 'e') {
+    resultArray.push(letter);
   }
 
-  if (input[i] === 'u') {
-    resultArray.push(input[i])
+  if (letter === 'u') {
+    resultArray.push(letter)
   }
   
   for (let i = 0; i < vowels.length; i++) {
